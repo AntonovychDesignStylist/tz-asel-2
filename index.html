@@ -68,7 +68,7 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 <header id="head">
   <div class="bar">
     <p class="name">Астана — Асель, Нурлан · Депутатский</p>
-    <span class="sub">ТЗ АСЕЛЬ 2 · 24 слайда · 09.11.2026</span>
+    <span class="sub">ТЗ АСЕЛЬ 2 · 25 слайдов · 09.11.2026</span>
     <span class="mark">Antonovych</span>
   </div>
 </header>
@@ -81,29 +81,30 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 
 <div class="controls">
   <button class="nav" id="prev" type="button" aria-label="Предыдущий слайд">‹</button>
-  <span class="count"><b id="cur">1</b> / 24</span>
+  <span class="count"><b id="cur">1</b> / 25</span>
   <button class="nav" id="next" type="button" aria-label="Следующий слайд">›</button>
   <span class="caption" id="caption"></span>
 </div>
 
 <script>
-const TOTAL = 24;
+const TOTAL = 25;
 const VIDEOS = {
   5:  {src:'slides/v1.mp4', css:'left:65.93%;top:2.38%;width:29.65%;height:93.71%'},
-  7:  {src:'slides/v2.mp4', css:'left:63.99%;top:0.70%;width:31.09%;height:98.26%'},
-  8:  {src:'slides/v3.mp4', css:'left:54.95%;top:0%;width:45.05%;height:100%'},
-  17: {src:'slides/v4.mp4', css:'left:62.66%;top:-0.60%;width:31.83%;height:100.60%'}
+  8:  {src:'slides/v2.mp4', css:'left:63.99%;top:0.70%;width:31.09%;height:98.26%'},
+  9:  {src:'slides/v3.mp4', css:'left:54.95%;top:0%;width:45.05%;height:100%'},
+  18: {src:'slides/v4.mp4', css:'left:62.66%;top:-0.60%;width:31.83%;height:100.60%'}
 };
 const ALT = {
   1:'Титульный слайд', 2:'Правила сохранения визуализаций', 3:'Общая информация по проекту',
-  4:'Референс заказчика по стилистике', 5:'Гостиная, столовая — атриумы', 6:'Кухня — референсы заказчика',
-  7:'Кухня — красный мрамор Rosso Levanto', 8:'Гостиная, столовая — работа с видео',
-  9:'Гостиная, столовая — диван Flexform Groundpiece', 10:'Гостиная, столовая — ТВ-зона из травертина',
-  11:'Гостиная, столовая — стол и витрины Poliform', 12:'Кабинеты возле атриума',
-  13:'Спальня хозяйская — люстра Henge', 14:'Мастер-гардероб Poliform', 15:'Мастер-гардероб — референсы',
-  16:'Туалетный столик Poliform, люстра над островом', 17:'Санузлы — Modulnova',
-  18:'Санузлы', 19:'Санузлы', 20:'Санузлы', 21:'Санузлы',
-  22:'Гостевая спальня — Baxter, Minotti', 23:'Гардеробы — референс', 24:'Завершающий слайд'
+  4:'Референс заказчика по стилистике', 5:'Гостиная, столовая — атриумы',
+  6:'Скруглённое стекло Barrause в холлах и коридорах', 7:'Кухня — референсы заказчика',
+  8:'Кухня — красный мрамор Rosso Levanto', 9:'Гостиная, столовая — работа с видео',
+  10:'Гостиная, столовая — диван Flexform Groundpiece', 11:'Гостиная, столовая — ТВ-зона из травертина',
+  12:'Гостиная, столовая — стол и витрины Poliform', 13:'Кабинеты возле атриума',
+  14:'Спальня хозяйская — люстра Henge', 15:'Мастер-гардероб Poliform', 16:'Мастер-гардероб — референсы',
+  17:'Туалетный столик Poliform, люстра над островом', 18:'Санузлы — Modulnova',
+  19:'Санузлы', 20:'Санузлы', 21:'Санузлы', 22:'Санузлы',
+  23:'Гостевая спальня — Baxter, Minotti', 24:'Гардеробы — референс', 25:'Завершающий слайд'
 };
 const pad = n => String(n).padStart(2, '0');
 const head = document.getElementById('head');
