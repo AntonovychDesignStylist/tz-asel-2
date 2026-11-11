@@ -90,7 +90,7 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 <header id="head">
   <div class="bar">
     <p class="name">Астана — Асель, Нурлан · ДНД</p>
-    <span class="sub">ТЗ АСЕЛЬ 2 · стилистика · 46 слайдов · 11.11.2026</span>
+    <span class="sub">ТЗ АСЕЛЬ 2 · стилистика · 47 слайдов · 11.11.2026</span>
     <span class="mark">Antonovych</span>
   </div>
 </header>
@@ -103,21 +103,21 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 
 <div class="controls">
   <button class="nav" id="prev" type="button" aria-label="Предыдущий слайд">‹</button>
-  <span class="count"><b id="cur">1</b> / 46</span>
+  <span class="count"><b id="cur">1</b> / 47</span>
   <button class="nav" id="next" type="button" aria-label="Следующий слайд">›</button>
   <span class="caption" id="caption"></span>
   <button class="fs" id="fs" type="button" aria-label="Во весь экран" title="Во весь экран">⛶</button>
 </div>
 
 <script>
-const TOTAL = 46;
+const TOTAL = 47;
 const VIDEOS = {
-  32: {src:'slides/v1.mp4', css:'left:65.93%;top:2.38%;width:29.65%;height:93.71%'},
-  33: {src:'slides/v2.mp4', css:'left:11.51%;top:0.86%;width:31.09%;height:98.26%'},
-  35: {src:'slides/v3.mp4', css:'left:54.95%;top:0%;width:45.05%;height:100%'},
-  41: {src:'slides/v4.mp4', css:'left:62.66%;top:-0.60%;width:31.83%;height:100.60%'}
+  33: {src:'slides/v1.mp4', css:'left:65.93%;top:2.38%;width:29.65%;height:93.71%'},
+  34: {src:'slides/v2.mp4', css:'left:11.51%;top:0.86%;width:31.09%;height:98.26%'},
+  36: {src:'slides/v3.mp4', css:'left:54.95%;top:0%;width:45.05%;height:100%'},
+  42: {src:'slides/v4.mp4', css:'left:62.66%;top:-0.60%;width:31.83%;height:100.60%'}
 };
-const PLANS = { 12:'slides/plan-1.jpg', 13:'slides/plan-2.jpg' };
+const PLANS = { 13:'slides/plan-1.jpg', 14:'slides/plan-2.jpg' };
 const ALT = {
   1:'Обложка',
   2:'Стилистика проекта',
@@ -127,44 +127,45 @@ const ALT = {
   6:'Стилистика проекта',
   7:'Стилистика проекта',
   8:'Стилистика проекта',
-  9:'Стилистика проекта',
-  10:'Визуализации Antonovych',
+  9:'Гостиная, столовая — разрез',
+  10:'Стилистика проекта',
   11:'Визуализации Antonovych',
-  12:'План 1 этажа',
-  13:'План 2 этажа',
-  14:'Дизайн лестниц',
+  12:'Визуализации Antonovych',
+  13:'План 1 этажа',
+  14:'План 2 этажа',
   15:'Дизайн лестниц',
   16:'Дизайн лестниц',
-  17:'Варианты лифтов',
+  17:'Дизайн лестниц',
   18:'Варианты лифтов',
   19:'Варианты лифтов',
   20:'Варианты лифтов',
-  21:'Дизайн лестниц',
+  21:'Варианты лифтов',
   22:'Дизайн лестниц',
   23:'Дизайн лестниц',
   24:'Дизайн лестниц',
   25:'Дизайн лестниц',
   26:'Дизайн лестниц',
   27:'Дизайн лестниц',
-  28:'Перила в стене',
+  28:'Дизайн лестниц',
   29:'Перила в стене',
   30:'Перила в стене',
   31:'Перила в стене',
-  32:'Гостиная, столовая',
-  33:'Кухня',
+  32:'Перила в стене',
+  33:'Гостиная, столовая',
   34:'Кухня',
-  35:'Гостиная, столовая',
+  35:'Кухня',
   36:'Гостиная, столовая',
   37:'Гостиная, столовая',
   38:'Гостиная, столовая',
-  39:'Кабинеты возле атриума',
-  40:'Люстра над островом',
-  41:'Санузлы',
+  39:'Гостиная, столовая',
+  40:'Кабинеты возле атриума',
+  41:'Люстра над островом',
   42:'Санузлы',
   43:'Санузлы',
   44:'Санузлы',
-  45:'Гостевая спальня',
-  46:'Гардеробы'
+  45:'Санузлы',
+  46:'Гостевая спальня',
+  47:'Гардеробы'
 };
 const pad = n => String(n).padStart(2, '0');
 const head = document.getElementById('head');
