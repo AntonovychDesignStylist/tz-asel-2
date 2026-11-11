@@ -63,6 +63,28 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 .caption{font-size:.8rem;color:var(--muted);max-width:40ch;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 @media (max-width:720px){ .caption{display:none;} .mark{display:none;} .sub{display:none;} }
+
+/* телефон в горизонтали: слайд во весь экран, управление поверх него */
+@media (orientation:landscape) and (max-height:560px){
+  header{display:none;}
+  .stage{padding-block:0;padding-left:0;padding-right:0;}
+  .frame{border:0;border-radius:0;width:min(100%, calc(100dvh * 1.7778));}
+  .controls{position:fixed;left:0;right:0;bottom:0;z-index:5;
+    background:transparent;border:0;pointer-events:none;
+    padding-block:8px;padding-bottom:calc(8px + env(safe-area-inset-bottom,0px));}
+  .controls > *{pointer-events:auto;}
+  .nav,.fs{background:rgba(20,16,16,.55);color:#fff;border-color:transparent;backdrop-filter:blur(6px);}
+  .nav:hover:not(:disabled){background:rgba(20,16,16,.75);}
+  .count{color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6);}
+  .count b{color:#fff;}
+}
+:fullscreen .stage{padding-block:0;}
+:fullscreen header{display:none;}
+.fs{width:40px;height:40px;border-radius:999px;border:1px solid var(--line);
+  background:transparent;color:var(--fg);cursor:pointer;font-size:1rem;line-height:1;
+  display:grid;place-items:center;}
+.fs:hover{background:var(--bg);}
+.fs:focus-visible{outline:2px solid var(--fg);outline-offset:2px;}
 </style>
 
 <header id="head">
@@ -84,6 +106,7 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
   <span class="count"><b id="cur">1</b> / 53</span>
   <button class="nav" id="next" type="button" aria-label="Следующий слайд">›</button>
   <span class="caption" id="caption"></span>
+  <button class="fs" id="fs" type="button" aria-label="Во весь экран" title="Во весь экран">⛶</button>
 </div>
 
 <script>
@@ -170,8 +193,10 @@ function clearMedia(){
 }
 
 function sizeChrome(){
-  const h = (head.hidden ? 0 : head.offsetHeight)
-          + document.querySelector('.controls').offsetHeight + 26;
+  const overlay = matchMedia('(orientation:landscape) and (max-height:560px)').matches;
+  const ctl = document.querySelector('.controls');
+  const h = overlay ? 0
+    : (head.hidden ? 0 : head.offsetHeight) + ctl.offsetHeight + 26;
   document.documentElement.style.setProperty('--chrome', h + 'px');
 }
 
@@ -240,7 +265,20 @@ frame.addEventListener('touchend', e => {
   x0 = y0 = null;
 }, {passive:true});
 
+const fsBtn = document.getElementById('fs');
+const canFS = !!(document.documentElement.requestFullscreen || document.documentElement.webkitRequestFullscreen);
+if (!canFS) fsBtn.hidden = true;
+fsBtn.addEventListener('click', () => {
+  const el = document.documentElement;
+  const on = document.fullscreenElement || document.webkitFullscreenElement;
+  if (on) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); }
+  else { (el.requestFullscreen || el.webkitRequestFullscreen).call(el).catch(() => {}); }
+});
+for (const ev of ['fullscreenchange','webkitfullscreenchange'])
+  addEventListener(ev, () => { setTimeout(sizeChrome, 60); });
+
 addEventListener('resize', sizeChrome);
+addEventListener('orientationchange', () => setTimeout(sizeChrome, 120));
 
 const start = parseInt((location.hash || '').slice(1), 10);
 show(Number.isInteger(start) && start >= 1 && start <= TOTAL ? start : 1);
