@@ -112,10 +112,10 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 <script>
 const TOTAL = 49;
 const VIDEOS = {
-  34: {src:'slides/v1.mp4', css:'left:51.48%;top:8.80%;width:28.86%;height:91.20%'},
-  35: {src:'slides/v2.mp4', css:'left:14.89%;top:9.58%;width:28.36%;height:89.63%'},
-  37: {src:'slides/v3.mp4', css:'left:53.66%;top:8.80%;width:41.09%;height:91.20%'},
-  42: {src:'slides/v4.mp4', css:'left:61.48%;top:8.80%;width:28.86%;height:91.20%'}
+  34: {src:'slides/v1.mp4', css:'left:51.63%;top:0%;width:31.73%;height:100%'},
+  35: {src:'slides/v2.mp4', css:'left:60.00%;top:0%;width:31.64%;height:100%'},
+  37: {src:'slides/v3.mp4', css:'left:54.01%;top:0%;width:45.05%;height:100%'},
+  42: {src:'slides/v4.mp4', css:'left:62.66%;top:0%;width:31.83%;height:100%'}
 };
 const PLANS = { 12:'slides/plan-1.jpg', 13:'slides/plan-2.jpg' };
 const SECTIONS = [
@@ -151,7 +151,6 @@ function clearMedia(){
   if (!media) return;
   media.video.pause();
   media.video.remove();
-  media.btn.remove();
   media = null;
 }
 
@@ -180,15 +179,9 @@ function show(n){
     el.src = v.src; el.muted = true; el.loop = true; el.playsInline = true;
     el.setAttribute('playsinline',''); el.setAttribute('muted','');
     el.style.cssText = v.css;
-    const btn = document.createElement('button');
-    btn.className = 'sound'; btn.type = 'button'; btn.textContent = 'ЗВУК ВКЛ';
-    btn.addEventListener('click', () => {
-      el.muted = !el.muted;
-      btn.textContent = el.muted ? 'ЗВУК ВКЛ' : 'ЗВУК ВЫКЛ';
-      el.play().catch(() => {});
-    });
-    frame.append(el, btn);
-    media = {video: el, btn};
+    el.volume = 0;
+    frame.append(el);
+    media = {video: el};
     el.play().catch(() => {});
   }
   if (PLANS[i]){
