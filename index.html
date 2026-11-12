@@ -17,7 +17,7 @@
 :root[data-theme="dark"]{
   --bg:#131010; --card:#1B1717; --fg:#EDE8E8; --muted:#948B8B; --line:#2B2525; color-scheme:dark;
 }
-html,body{height:100%;margin:0;}
+html,body{height:100%;}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);
   display:flex;flex-direction:column;overflow:hidden;}
 
@@ -56,21 +56,41 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
   display:grid;place-items:center;}
 .nav:hover:not(:disabled){background:var(--bg);}
 .nav:disabled{opacity:.3;cursor:default;}
-.nav:focus-visible,.sound:focus-visible,#fs:focus-visible{outline:2px solid var(--fg);outline-offset:2px;}
+.nav:focus-visible,.sound:focus-visible{outline:2px solid var(--fg);outline-offset:2px;}
 .count{font-family:var(--display);font-size:.84rem;color:var(--muted);
   font-variant-numeric:tabular-nums;min-width:86px;text-align:center;}
 .count b{color:var(--fg);font-weight:600;}
 .caption{font-size:.8rem;color:var(--muted);max-width:40ch;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-#fs{border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;
-  font-family:var(--display);font-size:.7rem;letter-spacing:.1em;padding:9px 12px;border-radius:999px;}
 @media (max-width:720px){ .caption{display:none;} .mark{display:none;} .sub{display:none;} }
+
+/* телефон в горизонтали: слайд во весь экран, управление поверх него */
+@media (orientation:landscape) and (max-height:560px){
+  header{display:none;}
+  .stage{padding-block:0;padding-left:0;padding-right:0;}
+  .frame{border:0;border-radius:0;width:min(100%, calc(100dvh * 1.7778));}
+  .controls{position:fixed;left:0;right:0;bottom:0;z-index:5;
+    background:transparent;border:0;pointer-events:none;
+    padding-block:8px;padding-bottom:calc(8px + env(safe-area-inset-bottom,0px));}
+  .controls > *{pointer-events:auto;}
+  .nav,.fs{background:rgba(20,16,16,.55);color:#fff;border-color:transparent;backdrop-filter:blur(6px);}
+  .nav:hover:not(:disabled){background:rgba(20,16,16,.75);}
+  .count{color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6);}
+  .count b{color:#fff;}
+}
+:fullscreen .stage{padding-block:0;}
+:fullscreen header{display:none;}
+.fs{width:40px;height:40px;border-radius:999px;border:1px solid var(--line);
+  background:transparent;color:var(--fg);cursor:pointer;font-size:1rem;line-height:1;
+  display:grid;place-items:center;}
+.fs:hover{background:var(--bg);}
+.fs:focus-visible{outline:2px solid var(--fg);outline-offset:2px;}
 </style>
 
 <header id="head">
   <div class="bar">
-    <p class="name">Астана — Асель, Нурлан · Депутатский</p>
-    <span class="sub">ТЗ АСЕЛЬ 2 · 49 слайдов · 12.11.2026</span>
+    <p class="name">Астана — Асель, Нурлан · ДНД</p>
+    <span class="sub">ТЗ АСЕЛЬ 2 · стилистика · 49 слайдов · 12.11.2026</span>
     <span class="mark">Antonovych</span>
   </div>
 </header>
@@ -85,8 +105,8 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
   <button class="nav" id="prev" type="button" aria-label="Предыдущий слайд">‹</button>
   <span class="count"><b id="cur">1</b> / 49</span>
   <button class="nav" id="next" type="button" aria-label="Следующий слайд">›</button>
-  <button id="fs" type="button">НА ВЕСЬ ЭКРАН</button>
   <span class="caption" id="caption"></span>
+  <button class="fs" id="fs" type="button" aria-label="Во весь экран" title="Во весь экран">⛶</button>
 </div>
 
 <script>
@@ -99,13 +119,22 @@ const VIDEOS = {
 };
 const PLANS = { 12:'slides/plan-1.jpg', 13:'slides/plan-2.jpg' };
 const SECTIONS = [
-  [2,7,'Экстерьер'], [8,11,'Гостиная, столовая'], [12,13,'Планы этажей'],
-  [14,16,'Дизайн лестниц'], [17,22,'Варианты лифтов'], [23,29,'Дизайн лестниц'],
-  [30,33,'Перила'], [34,34,'Холлы, гостиная, столовая'], [35,36,'Кухня'],
-  [37,40,'Гостиная, столовая'], [41,41,'Спальня'], [42,49,'Санузлы']
+  [1,1,'Обложка'],
+  [2,7,'Экстерьер'],
+  [8,11,'Гостиная, столовая'],
+  [12,12,'План 1 этажа'],
+  [13,13,'План 2 этажа'],
+  [14,16,'Дизайн лестниц'],
+  [17,22,'Варианты лифтов'],
+  [23,29,'Дизайн лестниц'],
+  [30,33,'Перила в стене'],
+  [34,34,'Холлы, гостиная, столовая'],
+  [35,36,'Кухня'],
+  [37,40,'Гостиная, столовая'],
+  [41,41,'Спальня'],
+  [42,49,'Санузлы']
 ];
-const ALT = n => { if (n===1) return 'Титульный слайд';
-  for (const [a,b,t] of SECTIONS) if (n>=a && n<=b) return t; return 'Слайд ' + n; };
+function ALT(n){ for (const [a,b,t] of SECTIONS) if (n >= a && n <= b) return t; return 'Слайд ' + n; }
 
 const pad = n => String(n).padStart(2, '0');
 const head = document.getElementById('head');
@@ -115,19 +144,22 @@ const curEl = document.getElementById('cur');
 const capEl = document.getElementById('caption');
 const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
-const fsBtn = document.getElementById('fs');
 let i = 1, media = null;
 
 function clearMedia(){
+  frame.querySelectorAll('a.sound').forEach(a => a.remove());
   if (!media) return;
-  media.video.pause(); media.video.remove(); media.btn.remove(); media = null;
+  media.video.pause();
+  media.video.remove();
+  media.btn.remove();
+  media = null;
 }
 
 function sizeChrome(){
-  const flat = matchMedia('(orientation:landscape) and (max-height:560px)').matches;
-  if (flat){ document.documentElement.style.setProperty('--chrome','0px'); return; }
-  const h = (head.hidden ? 0 : head.offsetHeight)
-          + document.querySelector('.controls').offsetHeight + 26;
+  const overlay = matchMedia('(orientation:landscape) and (max-height:560px)').matches;
+  const ctl = document.querySelector('.controls');
+  const h = overlay ? 0
+    : (head.hidden ? 0 : head.offsetHeight) + ctl.offsetHeight + 26;
   document.documentElement.style.setProperty('--chrome', h + 'px');
 }
 
@@ -136,7 +168,7 @@ function show(n){
   clearMedia();
   head.hidden = i !== 1;
   sizeChrome();
-  shot.src = PLANS[i] || ('slides/s-' + pad(i) + '.jpg');
+  shot.src = 'slides/s-' + pad(i) + '.jpg';
   shot.alt = ALT(i);
   curEl.textContent = i;
   capEl.textContent = ALT(i);
@@ -159,30 +191,22 @@ function show(n){
     media = {video: el, btn};
     el.play().catch(() => {});
   }
+  if (PLANS[i]){
+    const a = document.createElement('a');
+    a.className = 'sound'; a.textContent = 'ПЛАН ЦЕЛИКОМ';
+    a.href = PLANS[i]; a.target = '_blank'; a.rel = 'noopener';
+    a.style.textDecoration = 'none';
+    frame.append(a);
+  }
   for (const d of [1, -1]){
     const m = i + d;
-    if (m >= 1 && m <= TOTAL){ const p = new Image(); p.src = PLANS[m] || ('slides/s-' + pad(m) + '.jpg'); }
+    if (m >= 1 && m <= TOTAL) { const p = new Image(); p.src = 'slides/s-' + pad(m) + '.jpg'; }
   }
   if (location.hash !== '#' + i) history.replaceState(null, '', '#' + i);
 }
 
 prevBtn.addEventListener('click', () => show(i - 1));
 nextBtn.addEventListener('click', () => show(i + 1));
-
-const root = document.documentElement;
-const canFs = !!(root.requestFullscreen || root.webkitRequestFullscreen);
-if (!canFs) fsBtn.hidden = true;
-fsBtn.addEventListener('click', () => {
-  if (document.fullscreenElement || document.webkitFullscreenElement){
-    (document.exitFullscreen || document.webkitExitFullscreen).call(document);
-  } else {
-    (root.requestFullscreen || root.webkitRequestFullscreen).call(root);
-  }
-});
-document.addEventListener('fullscreenchange', () => {
-  fsBtn.textContent = document.fullscreenElement ? 'ВЫЙТИ' : 'НА ВЕСЬ ЭКРАН';
-  sizeChrome();
-});
 
 addEventListener('keydown', e => {
   if (e.target.closest('button') && (e.key === ' ' || e.key === 'Enter')) return;
@@ -204,8 +228,20 @@ frame.addEventListener('touchend', e => {
   x0 = y0 = null;
 }, {passive:true});
 
+const fsBtn = document.getElementById('fs');
+const canFS = !!(document.documentElement.requestFullscreen || document.documentElement.webkitRequestFullscreen);
+if (!canFS) fsBtn.hidden = true;
+fsBtn.addEventListener('click', () => {
+  const el = document.documentElement;
+  const on = document.fullscreenElement || document.webkitFullscreenElement;
+  if (on) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); }
+  else { (el.requestFullscreen || el.webkitRequestFullscreen).call(el).catch(() => {}); }
+});
+for (const ev of ['fullscreenchange','webkitfullscreenchange'])
+  addEventListener(ev, () => { setTimeout(sizeChrome, 60); });
+
 addEventListener('resize', sizeChrome);
-addEventListener('orientationchange', () => setTimeout(sizeChrome, 200));
+addEventListener('orientationchange', () => setTimeout(sizeChrome, 120));
 
 const start = parseInt((location.hash || '').slice(1), 10);
 show(Number.isInteger(start) && start >= 1 && start <= TOTAL ? start : 1);
