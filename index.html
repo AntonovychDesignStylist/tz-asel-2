@@ -45,6 +45,10 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 .frame img{display:block;width:100%;height:100%;object-fit:contain;}
 .frame video{position:absolute;width:100%;height:100%;object-fit:cover;background:#000;border:0;}
 
+.hot{position:absolute;z-index:3;display:block;border-radius:2px;
+  transition:background .15s;}
+.hot:hover{background:rgba(60,58,57,.06);}
+.hot:focus-visible{outline:2px solid var(--fg);outline-offset:2px;}
 .sound{position:absolute;right:14px;bottom:14px;z-index:3;border:0;cursor:pointer;
   font-family:var(--display);font-size:.7rem;letter-spacing:.08em;
   padding:7px 12px;border-radius:999px;color:#fff;background:rgba(20,16,16,.62);}
@@ -93,7 +97,7 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 <header id="head">
   <div class="bar">
     <p class="name">Астана — Асель, Нурлан · ДНД</p>
-    <span class="sub">ТЗ АСЕЛЬ 2 · стилистика · 51 слайд · 12.11.2026</span>
+    <span class="sub">ТЗ АСЕЛЬ 2 · стилистика · 52 слайда · 12.11.2026</span>
     <span class="mark">Antonovych</span>
   </div>
 </header>
@@ -106,14 +110,14 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 
 <div class="controls">
   <button class="nav" id="prev" type="button" aria-label="Предыдущий слайд">‹</button>
-  <span class="count"><b id="cur">1</b> / 51</span>
+  <span class="count"><b id="cur">1</b> / 52</span>
   <button class="nav" id="next" type="button" aria-label="Следующий слайд">›</button>
   <span class="caption" id="caption"></span>
   <button class="fs" id="fs" type="button" aria-label="Во весь экран" title="Во весь экран">⛶</button>
 </div>
 
 <script>
-const TOTAL = 51;
+const TOTAL = 52;
 const VIDEOS = {
   34: {src:'slides/v1.mp4', css:'left:51.63%;top:0%;width:31.73%;height:100%'},
   35: {src:'slides/v2.mp4', css:'left:60.00%;top:0%;width:31.64%;height:100%'},
@@ -135,10 +139,36 @@ const SECTIONS = [
   [35,38,'Кухня'],
   [39,42,'Гостиная, столовая'],
   [43,43,'Спальня'],
-  [44,51,'Санузлы']
+  [44,51,'Санузлы'],
+  [52,52,'Проекты студии']
 ];
 function ALT(n){ for (const [a,b,t] of SECTIONS) if (n >= a && n <= b) return t; return 'Слайд ' + n; }
 
+
+const PROJECTS = [
+  ['Марат реализация','https://drive.google.com/drive/folders/1tJLJOkHy_5rJ7szYNlNCARmGt8clomL3?usp=sharing'],
+  ['Суйындык','https://drive.google.com/drive/folders/1S17B6MzltIoGrge_k1bxZKo0-0UbUtLD?usp=sharing'],
+  ['Dream house','https://drive.google.com/drive/folders/1R0U8sXydasGitmC-7xveDuCk0B_Aku-O?usp=sharing'],
+  ['Александра Lumiere','https://drive.google.com/drive/folders/1pEULOLSkRt_pSFD-2-hDvXmrzFsmRZvo?usp=sharing'],
+  ['Василий фото видео','https://drive.google.com/drive/folders/1Sdi8rg8wFbBWDevnV4qzrlFCVkTX-JMT?usp=sharing'],
+  ['District 1','https://drive.google.com/drive/folders/17XkW6Aq1Yl2P0lZvsVGsORjPOBZQSniy?usp=sharing'],
+  ['Miami','https://drive.google.com/drive/folders/1cu3xbz2lQnlXHQSa1ksaMcE9-2y7Ppmg?usp=sharing'],
+  ['Sobha Villa','https://drive.google.com/drive/folders/11G6cmW6y1nmMlhD_xzF2QpHxqsByhRXt?usp=sharing'],
+  ['Almaty Elena интерьер','https://drive.google.com/drive/folders/15xVB6zlPMj73bLxxpE4a0-A22ZsoCFZr?usp=sharing'],
+  ['Bvlgari','https://drive.google.com/drive/folders/1a3qFnk8M1NLolAwulAH1nn8XA1GTxRC9?usp=sharing'],
+  ['Emerald Hills','https://drive.google.com/drive/folders/1l_rnQUe6Ta7BYfkn4hWlFHspruP-9js2?usp=sharing']
+];
+const LINK_SLIDE = 52, L_X0 = 30.0, L_W = 40.0, L_TOP = 10.5, L_STEP = (92.5 - 10.5) / 11;
+function addLinks(){
+  PROJECTS.forEach((p, n) => {
+    const a = document.createElement('a');
+    a.className = 'hot';
+    a.href = p[1]; a.target = '_blank'; a.rel = 'noopener';
+    a.title = p[0]; a.setAttribute('aria-label', p[0]);
+    a.style.cssText = 'left:' + L_X0 + '%;top:' + (L_TOP + n * L_STEP) + '%;width:' + L_W + '%;height:' + (L_STEP * 0.8) + '%';
+    frame.append(a);
+  });
+}
 const pad = n => String(n).padStart(2, '0');
 const head = document.getElementById('head');
 const shot = document.getElementById('shot');
@@ -150,7 +180,7 @@ const nextBtn = document.getElementById('next');
 let i = 1, media = null;
 
 function clearMedia(){
-  frame.querySelectorAll('a.sound').forEach(a => a.remove());
+  frame.querySelectorAll('a.sound, a.hot').forEach(a => a.remove());
   if (!media) return;
   media.video.pause();
   media.video.remove();
@@ -187,6 +217,7 @@ function show(n){
     media = {video: el};
     el.play().catch(() => {});
   }
+  if (i === LINK_SLIDE) addLinks();
   if (PLANS[i]){
     const a = document.createElement('a');
     a.className = 'sound'; a.textContent = 'ПЛАН ЦЕЛИКОМ';
