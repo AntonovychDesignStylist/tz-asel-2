@@ -90,7 +90,7 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 <header id="head">
   <div class="bar">
     <p class="name">Астана — Асель, Нурлан · ДНД</p>
-    <span class="sub">ТЗ АСЕЛЬ 2 · стилистика · 49 слайдов · 12.11.2026</span>
+    <span class="sub">ТЗ АСЕЛЬ 2 · стилистика · 51 слайд · 12.11.2026</span>
     <span class="mark">Antonovych</span>
   </div>
 </header>
@@ -103,19 +103,19 @@ header{background:var(--card);border-bottom:1px solid var(--line);flex:0 0 auto;
 
 <div class="controls">
   <button class="nav" id="prev" type="button" aria-label="Предыдущий слайд">‹</button>
-  <span class="count"><b id="cur">1</b> / 49</span>
+  <span class="count"><b id="cur">1</b> / 51</span>
   <button class="nav" id="next" type="button" aria-label="Следующий слайд">›</button>
   <span class="caption" id="caption"></span>
   <button class="fs" id="fs" type="button" aria-label="Во весь экран" title="Во весь экран">⛶</button>
 </div>
 
 <script>
-const TOTAL = 49;
+const TOTAL = 51;
 const VIDEOS = {
   34: {src:'slides/v1.mp4', css:'left:51.63%;top:0%;width:31.73%;height:100%'},
   35: {src:'slides/v2.mp4', css:'left:60.00%;top:0%;width:31.64%;height:100%'},
-  37: {src:'slides/v3.mp4', css:'left:54.01%;top:0%;width:45.05%;height:100%'},
-  42: {src:'slides/v4.mp4', css:'left:62.66%;top:0%;width:31.83%;height:100%'}
+  39: {src:'slides/v3.mp4', css:'left:54.01%;top:0%;width:45.05%;height:100%'},
+  44: {src:'slides/v4.mp4', css:'left:62.66%;top:0%;width:31.83%;height:100%'}
 };
 const PLANS = { 12:'slides/plan-1.jpg', 13:'slides/plan-2.jpg' };
 const SECTIONS = [
@@ -129,10 +129,10 @@ const SECTIONS = [
   [23,29,'Дизайн лестниц'],
   [30,33,'Перила в стене'],
   [34,34,'Холлы, гостиная, столовая'],
-  [35,36,'Кухня'],
-  [37,40,'Гостиная, столовая'],
-  [41,41,'Спальня'],
-  [42,49,'Санузлы']
+  [35,38,'Кухня'],
+  [39,42,'Гостиная, столовая'],
+  [43,43,'Спальня'],
+  [44,51,'Санузлы']
 ];
 function ALT(n){ for (const [a,b,t] of SECTIONS) if (n >= a && n <= b) return t; return 'Слайд ' + n; }
 
