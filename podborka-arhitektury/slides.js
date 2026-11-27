@@ -565,38 +565,6 @@ window.SLIDES = [
  },
  {
   "type": "text",
-  "kicker": "Барвиха, Московская область, Россия",
-  "title": "Capital Hill Residence",
-  "sub": "Zaha Hadid Architects"
- },
- {
-  "type": "photo",
-  "src": "media/img/zha-01.webp",
-  "label": "Zaha Hadid Architects · Capital Hill Residence · Барвиха, Московская область, Россия"
- },
- {
-  "type": "photo",
-  "src": "media/img/zha-02.webp",
-  "label": "Zaha Hadid Architects · Capital Hill Residence · Барвиха, Московская область, Россия"
- },
- {
-  "type": "photo",
-  "src": "media/img/zha-03.webp",
-  "label": "Zaha Hadid Architects · Capital Hill Residence · Барвиха, Московская область, Россия"
- },
- {
-  "type": "photo",
-  "src": "media/img/zha-04.webp",
-  "label": "Zaha Hadid Architects · Capital Hill Residence · Барвиха, Московская область, Россия"
- },
- {
-  "type": "video",
-  "src": "media/video/zha-film.mp4",
-  "poster": "media/video/zha-film.jpg",
-  "label": "Zaha Hadid Architects · Capital Hill Residence · Барвиха, Московская область, Россия"
- },
- {
-  "type": "text",
   "kicker": "Мугла, Турция",
   "title": "Dolunay Villa",
   "sub": "Foster + Partners"
