@@ -870,6 +870,123 @@ window.SLIDES = [
  },
  {
   "type": "text",
+  "kicker": "Хавеа, Испания",
+  "title": "Casa Sardinera",
+  "sub": "Ramón Esteve"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-sard-p1.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-sard-p2.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-sard-p3.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-33.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-37.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-34.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-39.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-05.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-04.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-01.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-03.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-44.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-26.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-28.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/sard-23.webp",
+   "media/img/sard-13.webp"
+  ],
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-31.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-14.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-20.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-21.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-08.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sard-09.webp",
+  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
+ },
+ {
+  "type": "text",
   "kicker": "Трамин, Южный Тироль, Италия",
   "title": "Kastelaz Hof",
   "sub": "Peter Pichler Architecture"
