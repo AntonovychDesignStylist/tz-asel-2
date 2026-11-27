@@ -56,7 +56,8 @@
       fv.className = 'frame vid';
       var v = document.createElement('video');
       v.src = s.src; v.poster = s.poster || ''; v.preload = 'none';
-      v.muted = true; v.loop = true; v.playsInline = true;
+      v.muted = true; v.loop = true; v.playsInline = true; v.controls = true;
+      if (s.rate) { v.defaultPlaybackRate = s.rate; v.playbackRate = s.rate; }
       v.setAttribute('playsinline', '');
       fv.appendChild(v);
       el.appendChild(fv);
@@ -116,7 +117,7 @@
       var v = el.querySelector('video');
       if (action === 'play') {
         if (v.preload === 'none') v.preload = 'auto';
-        v.currentTime = 0; v.muted = !soundOn;
+        v.currentTime = 0; v.muted = !soundOn; if (s.rate) v.playbackRate = s.rate;
         v.play().catch(function () { v.muted = true; v.play().catch(function () {}); });
       } else { v.pause(); v.muted = true; }
     } else if (s.type === 'yt') {
@@ -204,7 +205,7 @@
   /* клик по левой трети — назад, по остальному полю — вперёд;
      на телефоне двойное касание — полный экран */
   stage.addEventListener('click', function (e) {
-    if (e.target.closest('#sound-toggle') || e.target.closest('iframe')) return;
+    if (e.target.closest('#sound-toggle') || e.target.closest('iframe') || e.target.closest('video')) return;
     var x = e.clientX;
     if (window.matchMedia('(pointer:coarse)').matches) {
       var now = Date.now();

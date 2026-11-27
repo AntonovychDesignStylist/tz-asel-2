@@ -775,6 +775,7 @@ window.SLIDES = [
  {
   "type": "video",
   "src": "media/video/ando-film.mp4",
+  "rate": 1.5,
   "poster": "media/video/ando-film.jpg",
   "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
  },
