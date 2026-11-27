@@ -1,0 +1,120 @@
+/* ─── Подборка современной архитектуры · Antonovych Design ───────────
+   Светлый лист, чёрно-серая типографика, цвет только в фотографиях.
+   Шрифт — Gilroy.                                                     */
+
+@font-face { font-family:'Gilroy'; src:url('media/fonts/Gilroy-Light.otf')  format('opentype'); font-weight:300; font-display:swap; }
+@font-face { font-family:'Gilroy'; src:url('media/fonts/Gilroy.otf')        format('opentype'); font-weight:400; font-display:swap; }
+@font-face { font-family:'Gilroy'; src:url('media/fonts/Gilroy-Medium.otf') format('opentype'); font-weight:500; font-display:swap; }
+
+:root{
+  --bg:#FAFAFA; --bg2:#F0EEEC;
+  --ink:#191716; --grey:#7E7A77; --grey-dim:#B5B0AC;
+  --hair:rgba(25,23,22,.16);
+  --sans:'Gilroy','Helvetica Neue',Arial,sans-serif;
+  --ease:cubic-bezier(.4,0,.2,1);
+  --fade:900ms;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;background:var(--bg)}
+body{font-family:var(--sans);color:var(--ink);-webkit-font-smoothing:antialiased}
+
+#stage{position:fixed;inset:0}
+.slide{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  background:var(--bg);opacity:0;visibility:hidden;
+  transition:opacity var(--fade) var(--ease), visibility 0s linear var(--fade);
+}
+.slide.is-active{opacity:1;visibility:visible;transition:opacity var(--fade) var(--ease), visibility 0s}
+
+/* ─── фото: по центру листа, белые поля, без обрезки ───────────────── */
+.frame{position:absolute;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.frame.photo{inset:6vh 6vw 9vh}
+.frame.photo img{max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain}
+.frame.photo.medium{inset:10vh 13vw 12vh}
+.frame.photo.small{inset:20vh 22vw}
+.frame.photo.pair{inset:6vh 5vw 9vh;gap:clamp(16px,2vw,40px)}
+.frame.photo.pair img{width:auto;height:100%;max-width:calc(50% - 1vw);object-fit:contain}
+.frame.photo.pair.medium{inset:9vh 10vw 11vh}
+
+/* ─── видео ─────────────────────────────────────────────────────────── */
+.frame.vid{inset:6vh 6vw 9vh}
+.frame.vid video,.frame.vid iframe{width:100%;height:100%;object-fit:contain;background:transparent;border:0}
+
+.photo-label{position:absolute;left:0;right:0;bottom:3vh;text-align:center;padding:0 24px;
+  font-weight:300;text-transform:uppercase;letter-spacing:.24em;text-indent:.24em;
+  color:var(--grey);font-size:clamp(9px,.68vw,12px);line-height:1.6}
+
+/* ─── обложка ───────────────────────────────────────────────────────── */
+.cover{display:grid;grid-template-rows:1fr auto 1fr;justify-items:center}
+.cover .logo-mark{grid-row:2;width:clamp(240px,26vw,420px);height:auto;color:var(--ink);
+  opacity:0;transition:opacity 1200ms var(--ease) 200ms}
+.cover .cover-title{grid-row:3;align-self:end;margin-bottom:12vh;
+  font-weight:300;font-size:clamp(13px,1.3vw,24px);letter-spacing:.32em;text-indent:.32em;
+  text-transform:uppercase;color:var(--ink);text-align:center;padding:0 24px;
+  opacity:0;transform:translateY(8px);transition:opacity 1000ms var(--ease) 700ms, transform 1000ms var(--ease) 700ms}
+.cover.is-active .logo-mark,.cover.is-active .cover-title{opacity:1;transform:none}
+
+/* ─── текстовые слайды: локация, название виллы, архитектор ─────────── */
+.text-slide{padding:0 clamp(28px,8vw,160px)}
+.text-inner{max-width:1000px;width:100%;text-align:center;display:flex;flex-direction:column;align-items:center}
+.kicker{font-weight:300;font-size:clamp(10px,.78vw,13px);letter-spacing:.3em;text-indent:.3em;
+  text-transform:uppercase;color:var(--grey)}
+.title{font-weight:300;font-size:clamp(24px,3vw,52px);letter-spacing:.16em;text-indent:.16em;
+  text-transform:uppercase;color:var(--ink);line-height:1.25;margin-top:1.1em}
+.sub{font-weight:400;font-size:clamp(11px,.95vw,16px);letter-spacing:.26em;text-indent:.26em;
+  text-transform:uppercase;color:var(--ink);margin-top:2.2em}
+.rule{height:1px;background:var(--hair);width:0;margin:2.2em auto 0}
+.text-inner .logo-mark{width:clamp(220px,22vw,360px);height:auto;color:var(--ink)}
+
+.kicker,.title,.sub,.text-inner .logo-mark{opacity:0;transform:translateY(10px);
+  transition:opacity 900ms var(--ease), transform 900ms var(--ease)}
+.is-active .kicker{opacity:1;transform:none;transition-delay:120ms}
+.is-active .title{opacity:1;transform:none;transition-delay:260ms}
+.is-active .rule{width:40px;transition:width 900ms var(--ease) 420ms}
+.is-active .sub{opacity:1;transform:none;transition-delay:520ms}
+.is-active .text-inner .logo-mark{opacity:1;transform:none;transition-delay:200ms}
+
+/* ─── хром ──────────────────────────────────────────────────────────── */
+#chrome{position:fixed;left:0;right:0;bottom:0;z-index:8;opacity:0;transition:opacity 600ms var(--ease);pointer-events:none}
+#chrome.show{opacity:1}
+#progress{height:1px;background:rgba(25,23,22,.08)}
+#bar{height:100%;width:0;background:rgba(25,23,22,.45);transition:width 700ms var(--ease)}
+#counter{position:fixed;right:24px;bottom:18px;z-index:8;font-size:10px;letter-spacing:.24em;
+  color:var(--grey-dim);opacity:0;transition:opacity 600ms var(--ease)}
+.show-counter #counter{opacity:1}
+
+#sound-toggle{position:fixed;right:22px;bottom:20px;z-index:9;height:30px;padding:0 14px;border-radius:15px;
+  border:1px solid rgba(25,23,22,.25);background:rgba(250,250,250,.85);color:var(--ink);
+  font-family:var(--sans);font-size:10px;letter-spacing:.18em;text-transform:uppercase;cursor:pointer;
+  opacity:0;visibility:hidden;transition:opacity 400ms var(--ease)}
+body.on-video #sound-toggle{opacity:.7;visibility:visible}
+#sound-toggle:hover{opacity:1}
+
+#grid{position:fixed;inset:0;z-index:20;background:var(--bg);display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;padding:24px;overflow-y:auto;
+  opacity:0;visibility:hidden;transition:opacity 400ms var(--ease),visibility 0s linear 400ms}
+#grid.open{opacity:1;visibility:visible;transition:opacity 400ms var(--ease),visibility 0s}
+#grid figure{position:relative;aspect-ratio:16/9;background:var(--bg2);cursor:pointer;overflow:hidden}
+#grid img{width:100%;height:100%;object-fit:contain}
+#grid .g-text{display:flex;align-items:center;justify-content:center;height:100%;padding:8px;
+  font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);text-align:center}
+#grid .g-text .logo-mark{width:60%;color:var(--ink)}
+#grid figure:hover{outline:1px solid rgba(25,23,22,.35)}
+#grid figcaption{position:absolute;left:6px;bottom:4px;font-size:9px;letter-spacing:.16em;color:var(--grey)}
+
+#hint{position:fixed;left:24px;bottom:18px;z-index:9;font-size:9.5px;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--grey-dim);transition:opacity 800ms var(--ease)}
+#hint.gone{opacity:0}
+
+@media (orientation:portrait){
+  .frame.photo,.frame.photo.medium,.frame.photo.small,.frame.vid{inset:20vh 4vw}
+  .frame.photo.pair,.frame.photo.pair.medium{inset:12vh 4vw;flex-direction:column;gap:10px}
+  .frame.photo.pair img{max-width:100%;height:calc(50% - 5px);width:100%}
+  .photo-label{bottom:5vh;letter-spacing:.16em;text-indent:.16em}
+  .title{letter-spacing:.1em;text-indent:.1em}
+  #hint{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  .kicker,.title,.sub,.text-inner .logo-mark,.cover .logo-mark,.cover .cover-title{transition:opacity 300ms linear;transform:none}
+}
