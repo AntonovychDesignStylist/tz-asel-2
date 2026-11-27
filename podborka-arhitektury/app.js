@@ -91,6 +91,35 @@
     grid.appendChild(fig);
   });
 
+  /* ── полоса превью следующих кадров ─────────────────────────────── */
+  var RAIL_N = 5;
+  var rail = document.createElement('aside');
+  rail.id = 'rail';
+  rail.setAttribute('aria-label', 'Следующие кадры');
+  document.body.appendChild(rail);
+  function thumbHTML(s) {
+    if (s.type === 'text' || s.type === 'cover') {
+      return '<div class="r-text">' + (s.logo ? logo() : (s.title || '')) + '</div>';
+    }
+    if (s.type === 'yt') return '<img src="https://i.ytimg.com/vi/' + s.id + '/hqdefault.jpg" alt="">';
+    if (s.type === 'pair') return '<img src="' + s.src[0] + '" alt=""><img src="' + s.src[1] + '" alt="">';
+    return '<img src="' + (s.type === 'video' ? s.poster : s.src) + '" alt="">';
+  }
+  function renderRail() {
+    rail.innerHTML = '';
+    for (var k = 1; k <= RAIL_N; k++) {
+      var j = cur + k;
+      var th = document.createElement('div');
+      th.className = 'th';
+      if (j < S.length) {
+        th.innerHTML = thumbHTML(S[j]);
+        if (S[j].type === 'pair') th.classList.add('is-pair');
+        (function (n) { th.addEventListener('click', function (e) { e.stopPropagation(); busy = false; go(n); }); })(j);
+      } else { th.classList.add('empty'); }
+      rail.appendChild(th);
+    }
+  }
+
   /* ── видео и звук ───────────────────────────────────────────────── */
   var sndBtn = document.createElement('button');
   sndBtn.id = 'sound-toggle';
@@ -161,6 +190,7 @@
     counter.textContent = String(cur + 1).padStart(3, '0') + ' / ' + String(slides.length).padStart(3, '0');
     document.body.classList.toggle('show-counter', S[cur].type === 'text');
     document.body.classList.toggle('on-video', S[cur].type === 'video' || S[cur].type === 'yt');
+    renderRail();
     showChrome();
   }
   function showChrome() {
