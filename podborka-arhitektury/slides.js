@@ -957,12 +957,6 @@ window.SLIDES = [
   "medium": true
  },
  {
-  "type": "photo",
-  "src": "media/img/vangood-16.webp",
-  "label": "VAN GOOD Design · Paradise Residence · Западная Африка",
-  "medium": true
- },
- {
   "type": "text",
   "logo": true
  }
