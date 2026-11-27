@@ -987,6 +987,439 @@ window.SLIDES = [
  },
  {
   "type": "text",
+  "kicker": "Миконос, Греция",
+  "title": "Aimasia Residence",
+  "sub": "Tom Dixon + A31 Architecture"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d00.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d02.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d03.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d05.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d06.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d07.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d08.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d09.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d10.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-aim-d11.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-00.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-01.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-02.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-05.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-04.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-03.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-06.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-07.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-08.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-09.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-10.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-11.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-59.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-23.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-24.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-22.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-25.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-65.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-67.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-68.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-71.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-72.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-73.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-74.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-75.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-81.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-82.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-83.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-84.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-86.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-88.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/aim-87.webp",
+   "media/img/aim-89.webp"
+  ],
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-90.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-13.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-16.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-17.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-36.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aim-77.webp",
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/aim-41.webp",
+   "media/img/aim-44.webp"
+  ],
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/aim-47.webp",
+   "media/img/aim-62.webp"
+  ],
+  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
+ },
+ {
+  "type": "text",
+  "kicker": "Аликанте, Испания",
+  "title": "Sabater House",
+  "sub": "Fran Silvestre Arquitectos"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-sab-basement.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-sab-ground_floor.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-sab-first_floor.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-sab-section.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-hero.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-00.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-13.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-20.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-22.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-79.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-41.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-01.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-15.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-66.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-27.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-55.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-56.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-67.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/sab-08.webp",
+   "media/img/sab-72.webp"
+  ],
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/sab-23.webp",
+   "media/img/sab-24.webp"
+  ],
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/sab-25.webp",
+   "media/img/sab-65.webp"
+  ],
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/sab-69.webp",
+   "media/img/sab-71.webp"
+  ],
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-78.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/sab-35.webp",
+   "media/img/sab-39.webp"
+  ],
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/sab-44.webp",
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/sab-73.webp",
+   "media/img/sab-77.webp"
+  ],
+  "label": "Fran Silvestre Arquitectos · Sabater House · Аликанте, Испания"
+ },
+ {
+  "type": "text",
   "kicker": "Трамин, Южный Тироль, Италия",
   "title": "Kastelaz Hof",
   "sub": "Peter Pichler Architecture"
