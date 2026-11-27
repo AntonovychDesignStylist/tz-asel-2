@@ -440,16 +440,6 @@ window.SLIDES = [
  },
  {
   "type": "photo",
-  "src": "media/img/aim-06.webp",
-  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
- },
- {
-  "type": "photo",
-  "src": "media/img/aim-07.webp",
-  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
- },
- {
-  "type": "photo",
   "src": "media/img/aim-08.webp",
   "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
  },
@@ -476,21 +466,6 @@ window.SLIDES = [
  {
   "type": "photo",
   "src": "media/img/aim-23.webp",
-  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
- },
- {
-  "type": "photo",
-  "src": "media/img/aim-24.webp",
-  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
- },
- {
-  "type": "photo",
-  "src": "media/img/aim-22.webp",
-  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
- },
- {
-  "type": "photo",
-  "src": "media/img/aim-65.webp",
   "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
  },
  {
