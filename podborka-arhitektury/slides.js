@@ -348,6 +348,38 @@ window.SLIDES = [
  },
  {
   "type": "text",
+  "kicker": "Франшхук, ЮАР",
+  "title": "4G Wine Estate",
+  "sub": "David Chipperfield Architects"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/dca-dca-sketch.webp",
+  "label": "David Chipperfield Architects · 4G Wine Estate · Франшхук, ЮАР",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/dca-02.webp",
+  "label": "David Chipperfield Architects · 4G Wine Estate · Франшхук, ЮАР"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/dca-01.webp",
+  "label": "David Chipperfield Architects · 4G Wine Estate · Франшхук, ЮАР"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/dca-05.webp",
+  "label": "David Chipperfield Architects · 4G Wine Estate · Франшхук, ЮАР"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/dca-03.webp",
+  "label": "David Chipperfield Architects · 4G Wine Estate · Франшхук, ЮАР"
+ },
+ {
+  "type": "text",
   "kicker": "Трамин, Южный Тироль, Италия",
   "title": "Kastelaz Hof",
   "sub": "Peter Pichler Architecture"
