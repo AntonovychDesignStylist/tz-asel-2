@@ -614,50 +614,6 @@ window.SLIDES = [
  },
  {
   "type": "text",
-  "kicker": "Ольборг, Дания",
-  "title": "Villa Gug",
-  "sub": "BIG — Bjarke Ingels Group"
- },
- {
-  "type": "photo",
-  "src": "media/img/big-big-n122.webp",
-  "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания",
-  "plan": true
- },
- {
-  "type": "photo",
-  "src": "media/img/big-big-n169.webp",
-  "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания",
-  "plan": true
- },
- {
-  "type": "photo",
-  "src": "media/img/big-02.webp",
-  "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/big-03.webp",
-   "media/img/big-04.webp"
-  ],
-  "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания"
- },
- {
-  "type": "photo",
-  "src": "media/img/big-06.webp",
-  "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/big-05.webp",
-   "media/img/big-07.webp"
-  ],
-  "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания"
- },
- {
-  "type": "text",
   "kicker": "Монток, Нью-Йорк, США",
   "title": "Maple Villas",
   "sub": "Lissoni & Partners"
