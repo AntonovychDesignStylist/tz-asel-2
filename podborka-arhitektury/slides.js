@@ -380,6 +380,496 @@ window.SLIDES = [
  },
  {
   "type": "text",
+  "kicker": "Кадис, Испания",
+  "title": "House of the Infinite",
+  "sub": "Alberto Campo Baeza"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-infinite-p1.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-infinite-p2.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-infinite-p3.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-infinite-p4.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-infinite-p5.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-17.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-18.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/infinite-19.webp",
+   "media/img/infinite-20.webp"
+  ],
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-23.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-21.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-22.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-24.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-25.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-26.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-27.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-28.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-29.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-30.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-31.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-32.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/infinite-33.webp",
+  "label": "Alberto Campo Baeza · House of the Infinite · Кадис, Испания"
+ },
+ {
+  "type": "text",
+  "kicker": "Кальпе, Испания",
+  "title": "House on the Cliff",
+  "sub": "Fran Silvestre Arquitectos"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-cliff-p1.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-cliff-p2.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-cliff-p3.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-cliff-p4.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-cliff-e1.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-cliff-e2.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-cliff-e3.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-cliff-e4.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-04.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-02.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-01.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/cliff-13.webp",
+   "media/img/cliff-15.webp"
+  ],
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-05.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-06.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-03.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-11.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-12.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-32.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-35.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-14.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-16.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/cliff-08.webp",
+   "media/img/cliff-17.webp"
+  ],
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-18.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-19.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/cliff-21.webp",
+   "media/img/cliff-27.webp"
+  ],
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-07.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-09.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-10.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-29.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-30.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-31.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-33.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/cliff-34.webp",
+  "label": "Fran Silvestre Arquitectos · House on the Cliff · Кальпе, Испания"
+ },
+ {
+  "type": "text",
+  "kicker": "Аликанте, Испания",
+  "title": "Oslo House",
+  "sub": "Ramón Esteve"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-oslo-p1.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-oslo-p2.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-oslo-p3.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-01.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/oslo-07.webp",
+   "media/img/oslo-13.webp"
+  ],
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-00.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-03.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-16.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/oslo-04.webp",
+   "media/img/oslo-05.webp"
+  ],
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-06.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-12.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-11.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/oslo-14.webp",
+   "media/img/oslo-17.webp"
+  ],
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-19.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-02.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/oslo-18.webp",
+  "label": "Ramón Esteve · Oslo House · Аликанте, Испания"
+ },
+ {
+  "type": "text",
+  "kicker": "Аустевол, Норвегия",
+  "title": "Villa Austevoll",
+  "sub": "Saunders Architecture"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aust-aust-p1.webp",
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aust-aust-p2.webp",
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aust-hero.webp",
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aust-17.webp",
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aust-18.webp",
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aust-00.webp",
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aust-02.webp",
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/aust-03.webp",
+   "media/img/aust-04.webp"
+  ],
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/aust-05.webp",
+   "media/img/aust-15.webp"
+  ],
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aust-10.webp",
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/aust-13.webp",
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/aust-16.webp",
+   "media/img/aust-09.webp"
+  ],
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/aust-07.webp",
+   "media/img/aust-08.webp"
+  ],
+  "label": "Saunders Architecture · Villa Austevoll · Аустевол, Норвегия"
+ },
+ {
+  "type": "text",
   "kicker": "Трамин, Южный Тироль, Италия",
   "title": "Kastelaz Hof",
   "sub": "Peter Pichler Architecture"
