@@ -5,6 +5,432 @@ window.SLIDES = [
  },
  {
   "type": "text",
+  "kicker": "Оурен, Португалия",
+  "title": "Casa GLS",
+  "sub": "Filipe Saraiva"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-01.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-03.webp",
+   "media/img/gls-04.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-02.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-06.webp",
+   "media/img/gls-07.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-05.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-08.webp",
+   "media/img/gls-10.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-14.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-09.webp",
+   "media/img/gls-13.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-11.webp",
+   "media/img/gls-12.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-22.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-15.webp",
+   "media/img/gls-16.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-17.webp",
+   "media/img/gls-18.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-27.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-19.webp",
+   "media/img/gls-20.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-21.webp",
+   "media/img/gls-23.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-28.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-24.webp",
+   "media/img/gls-25.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/gls-26.webp",
+   "media/img/gls-29.webp"
+  ],
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-30.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
+ },
+ {
+  "type": "text",
+  "kicker": "Московская область, Россия",
+  "title": "Villa Uno",
+  "sub": "Fedorova Architects"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-01.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "video",
+  "src": "media/video/fedorova-02.mp4",
+  "poster": "media/video/fedorova-02.jpg",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-03.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-05.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-07.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-08.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-09.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-10.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-11.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-12.webp",
+   "media/img/fed-13.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-19.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-15.webp",
+   "media/img/fed-16.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-20.webp",
+   "media/img/fed-21.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-23.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-24.webp",
+   "media/img/fed-27.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-29.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-30.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-34.webp",
+   "media/img/fed-35.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-37.webp",
+   "media/img/fed-38.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-41.webp",
+   "media/img/fed-42.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-44.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-48.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-49.webp",
+   "media/img/fed-51.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-55.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-60.webp",
+   "media/img/fed-62.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-61.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "video",
+  "src": "media/video/fedorova-64.mp4",
+  "poster": "media/video/fedorova-64.jpg",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fed-65.webp",
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/fed-66.webp",
+   "media/img/fed-67.webp"
+  ],
+  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
+ },
+ {
+  "type": "text",
+  "kicker": "Кашкайш, Португалия",
+  "title": "V House",
+  "sub": "João Tiago Aguiar, Arquitectos"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-01.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-02.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-03.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-04.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "pair",
+  "src": [
+   "media/img/vhouse-05.webp",
+   "media/img/vhouse-10.webp"
+  ],
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-06.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-07.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-08.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-09.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-11.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-12.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-13.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-14.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-15.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-16.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-17.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-18.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-19.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-20.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-21.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
+ },
+ {
+  "type": "text",
   "kicker": "Трамин, Южный Тироль, Италия",
   "title": "Kastelaz Hof",
   "sub": "Peter Pichler Architecture"
