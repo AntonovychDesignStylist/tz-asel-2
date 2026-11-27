@@ -127,12 +127,6 @@ window.SLIDES = [
   "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
  },
  {
-  "type": "video",
-  "src": "media/video/fedorova-02.mp4",
-  "poster": "media/video/fedorova-02.jpg",
-  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
- },
- {
   "type": "photo",
   "src": "media/img/fed-03.webp",
   "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
