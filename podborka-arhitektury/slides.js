@@ -426,67 +426,6 @@ window.SLIDES = [
   "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
  },
  {
-  "type": "photo",
-  "src": "media/img/saota-04.webp",
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "photo",
-  "src": "media/img/saota-05.webp",
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "photo",
-  "src": "media/img/saota-06.webp",
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "photo",
-  "src": "media/img/saota-07.webp",
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "photo",
-  "src": "media/img/saota-08.webp",
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "photo",
-  "src": "media/img/saota-09.webp",
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/saota-12.webp",
-   "media/img/saota-13.webp"
-  ],
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "photo",
-  "src": "media/img/saota-14.webp",
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "photo",
-  "src": "media/img/saota-15.webp",
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/saota-16.webp",
-   "media/img/saota-17.webp"
-  ],
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
-  "type": "photo",
-  "src": "media/img/saota-18.webp",
-  "label": "SAOTA · Villa Lyla · Нассау, Багамские Острова"
- },
- {
   "type": "text",
   "kicker": "Барвиха, Московская область, Россия",
   "title": "Capital Hill Residence",
