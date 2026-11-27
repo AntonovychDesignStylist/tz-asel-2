@@ -231,51 +231,6 @@ window.SLIDES = [
   "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
  },
  {
-  "type": "pair",
-  "src": [
-   "media/img/fed-49.webp",
-   "media/img/fed-51.webp"
-  ],
-  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
- },
- {
-  "type": "photo",
-  "src": "media/img/fed-55.webp",
-  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/fed-60.webp",
-   "media/img/fed-62.webp"
-  ],
-  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
- },
- {
-  "type": "photo",
-  "src": "media/img/fed-61.webp",
-  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
- },
- {
-  "type": "video",
-  "src": "media/video/fedorova-64.mp4",
-  "poster": "media/video/fedorova-64.jpg",
-  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
- },
- {
-  "type": "photo",
-  "src": "media/img/fed-65.webp",
-  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/fed-66.webp",
-   "media/img/fed-67.webp"
-  ],
-  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
- },
- {
   "type": "text",
   "kicker": "Кашкайш, Португалия",
   "title": "V House",
