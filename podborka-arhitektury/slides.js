@@ -442,17 +442,7 @@ window.SLIDES = [
  },
  {
   "type": "photo",
-  "src": "media/img/sard-14.webp",
-  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
- },
- {
-  "type": "photo",
   "src": "media/img/sard-20.webp",
-  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
- },
- {
-  "type": "photo",
-  "src": "media/img/sard-21.webp",
   "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
  },
  {
