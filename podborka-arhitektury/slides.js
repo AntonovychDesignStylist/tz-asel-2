@@ -11,6 +11,24 @@ window.SLIDES = [
  },
  {
   "type": "photo",
+  "src": "media/img/gls-gls-p1.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-gls-p2.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/gls-gls-p3.webp",
+  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия",
+  "plan": true
+ },
+ {
+  "type": "photo",
   "src": "media/img/gls-01.webp",
   "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
  },
@@ -28,45 +46,13 @@ window.SLIDES = [
   "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
  },
  {
-  "type": "pair",
-  "src": [
-   "media/img/gls-06.webp",
-   "media/img/gls-07.webp"
-  ],
+  "type": "photo",
+  "src": "media/img/gls-06.webp",
   "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
  },
  {
   "type": "photo",
   "src": "media/img/gls-05.webp",
-  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/gls-08.webp",
-   "media/img/gls-10.webp"
-  ],
-  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
- },
- {
-  "type": "photo",
-  "src": "media/img/gls-14.webp",
-  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/gls-09.webp",
-   "media/img/gls-13.webp"
-  ],
-  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/gls-11.webp",
-   "media/img/gls-12.webp"
-  ],
   "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
  },
  {
@@ -99,14 +85,6 @@ window.SLIDES = [
   "type": "pair",
   "src": [
    "media/img/gls-19.webp",
-   "media/img/gls-20.webp"
-  ],
-  "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/gls-21.webp",
    "media/img/gls-23.webp"
   ],
   "label": "Filipe Saraiva · Casa GLS · Оурен, Португалия"
@@ -224,14 +202,6 @@ window.SLIDES = [
   "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
  },
  {
-  "type": "pair",
-  "src": [
-   "media/img/fed-24.webp",
-   "media/img/fed-27.webp"
-  ],
-  "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
- },
- {
   "type": "photo",
   "src": "media/img/fed-29.webp",
   "label": "Fedorova Architects · Villa Uno · Московская область, Россия"
@@ -325,6 +295,48 @@ window.SLIDES = [
   "kicker": "Кашкайш, Португалия",
   "title": "V House",
   "sub": "João Tiago Aguiar, Arquitectos"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-vhouse-p0.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-vhouse-p1.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-vhouse-p2.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-vhouse-p3.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-vhouse-p4.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-vhouse-p5.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/vhouse-vhouse-p6.webp",
+  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия",
+  "plan": true
  },
  {
   "type": "photo",
@@ -609,6 +621,24 @@ window.SLIDES = [
  },
  {
   "type": "photo",
+  "src": "media/img/foster-foster-p2.webp",
+  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/foster-foster-p3.webp",
+  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/foster-foster-p4.webp",
+  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция",
+  "plan": true
+ },
+ {
+  "type": "photo",
   "src": "media/img/foster-01.webp",
   "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
  },
@@ -690,6 +720,24 @@ window.SLIDES = [
   "kicker": "Сотогранде, Андалусия, Испания",
   "title": "House in Sotogrande",
   "sub": "Fran Silvestre Arquitectos"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fran-fran-p1.webp",
+  "label": "Fran Silvestre Arquitectos · House in Sotogrande · Сотогранде, Андалусия, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fran-fran-p2.webp",
+  "label": "Fran Silvestre Arquitectos · House in Sotogrande · Сотогранде, Андалусия, Испания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/fran-fran-p3.webp",
+  "label": "Fran Silvestre Arquitectos · House in Sotogrande · Сотогранде, Андалусия, Испания",
+  "plan": true
  },
  {
   "type": "photo",
@@ -809,6 +857,18 @@ window.SLIDES = [
  },
  {
   "type": "photo",
+  "src": "media/img/big-big-n122.webp",
+  "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/big-big-n169.webp",
+  "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания",
+  "plan": true
+ },
+ {
+  "type": "photo",
   "src": "media/img/big-01.webp",
   "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания"
  },
@@ -843,6 +903,18 @@ window.SLIDES = [
   "kicker": "Долина Напа, Калифорния, США",
   "title": "Kramlich Residence",
   "sub": "Herzog & de Meuron"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/herzog-herzog-p1.webp",
+  "label": "Herzog & de Meuron · Kramlich Residence · Долина Напа, Калифорния, США",
+  "plan": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/herzog-herzog-p2.webp",
+  "label": "Herzog & de Meuron · Kramlich Residence · Долина Напа, Калифорния, США",
+  "plan": true
  },
  {
   "type": "photo",
@@ -924,6 +996,12 @@ window.SLIDES = [
   "kicker": "Транкозу, Баия, Бразилия",
   "title": "Vista House",
   "sub": "Studio MK27"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/mk27-mk27-p1.webp",
+  "label": "Studio MK27 · Vista House · Транкозу, Баия, Бразилия",
+  "plan": true
  },
  {
   "type": "photo",
