@@ -5,6 +5,54 @@ window.SLIDES = [
  },
  {
   "type": "text",
+  "kicker": "Трамин, Южный Тироль, Италия",
+  "title": "Kastelaz Hof",
+  "sub": "Peter Pichler Architecture"
+ },
+ {
+  "type": "photo",
+  "src": "media/img/pichler-06.webp",
+  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
+  "medium": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/pichler-01.webp",
+  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
+  "medium": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/pichler-02.webp",
+  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
+  "medium": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/pichler-03.webp",
+  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
+  "medium": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/pichler-04.webp",
+  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
+  "medium": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/pichler-05.webp",
+  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
+  "medium": true
+ },
+ {
+  "type": "photo",
+  "src": "media/img/pichler-07.webp",
+  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
+  "medium": true
+ },
+ {
+  "type": "text",
   "kicker": "Нассау, Багамские Острова",
   "title": "Villa Lyla",
   "sub": "SAOTA"
@@ -126,54 +174,6 @@ window.SLIDES = [
   "src": "media/video/zha-film.mp4",
   "poster": "media/video/zha-film.jpg",
   "label": "Zaha Hadid Architects · Capital Hill Residence · Барвиха, Московская область, Россия"
- },
- {
-  "type": "text",
-  "kicker": "Трамин, Южный Тироль, Италия",
-  "title": "Kastelaz Hof",
-  "sub": "Peter Pichler Architecture"
- },
- {
-  "type": "photo",
-  "src": "media/img/pichler-01.webp",
-  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
-  "medium": true
- },
- {
-  "type": "photo",
-  "src": "media/img/pichler-02.webp",
-  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
-  "medium": true
- },
- {
-  "type": "photo",
-  "src": "media/img/pichler-03.webp",
-  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
-  "medium": true
- },
- {
-  "type": "photo",
-  "src": "media/img/pichler-04.webp",
-  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
-  "medium": true
- },
- {
-  "type": "photo",
-  "src": "media/img/pichler-05.webp",
-  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
-  "medium": true
- },
- {
-  "type": "photo",
-  "src": "media/img/pichler-06.webp",
-  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
-  "medium": true
- },
- {
-  "type": "photo",
-  "src": "media/img/pichler-07.webp",
-  "label": "Peter Pichler Architecture · Kastelaz Hof · Трамин, Южный Тироль, Италия",
-  "medium": true
  },
  {
   "type": "text",
