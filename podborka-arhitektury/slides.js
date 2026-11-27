@@ -343,11 +343,6 @@ window.SLIDES = [
  },
  {
   "type": "photo",
-  "src": "media/img/vhouse-20.webp",
-  "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
- },
- {
-  "type": "photo",
   "src": "media/img/vhouse-21.webp",
   "label": "João Tiago Aguiar, Arquitectos · V House · Кашкайш, Португалия"
  },
