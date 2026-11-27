@@ -1269,59 +1269,6 @@ window.SLIDES = [
  },
  {
   "type": "text",
-  "kicker": "Нью-Мексико, США",
-  "title": "Cerro Pelon Ranch",
-  "sub": "Tadao Ando"
- },
- {
-  "type": "photo",
-  "src": "media/img/ando-01.webp",
-  "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
- },
- {
-  "type": "photo",
-  "src": "media/img/ando-02.webp",
-  "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
- },
- {
-  "type": "photo",
-  "src": "media/img/ando-03.webp",
-  "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
- },
- {
-  "type": "photo",
-  "src": "media/img/ando-04.webp",
-  "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
- },
- {
-  "type": "photo",
-  "src": "media/img/ando-05.webp",
-  "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
- },
- {
-  "type": "photo",
-  "src": "media/img/ando-06.webp",
-  "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
- },
- {
-  "type": "photo",
-  "src": "media/img/ando-07.webp",
-  "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
- },
- {
-  "type": "photo",
-  "src": "media/img/ando-08.webp",
-  "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
- },
- {
-  "type": "video",
-  "src": "media/video/ando-film.mp4",
-  "rate": 1.5,
-  "poster": "media/video/ando-film.jpg",
-  "label": "Tadao Ando · Cerro Pelon Ranch · Нью-Мексико, США"
- },
- {
-  "type": "text",
   "kicker": "Монток, Нью-Йорк, США",
   "title": "Maple Villas",
   "sub": "Lissoni & Partners"
