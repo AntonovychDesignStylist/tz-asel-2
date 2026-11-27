@@ -446,16 +446,6 @@ window.SLIDES = [
   "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
  },
  {
-  "type": "photo",
-  "src": "media/img/sard-08.webp",
-  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
- },
- {
-  "type": "photo",
-  "src": "media/img/sard-09.webp",
-  "label": "Ramón Esteve · Casa Sardinera · Хавеа, Испания"
- },
- {
   "type": "text",
   "kicker": "Миконос, Греция",
   "title": "Aimasia Residence",
