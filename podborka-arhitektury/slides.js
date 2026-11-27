@@ -578,16 +578,6 @@ window.SLIDES = [
  },
  {
   "type": "photo",
-  "src": "media/img/aim-68.webp",
-  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
- },
- {
-  "type": "photo",
-  "src": "media/img/aim-71.webp",
-  "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
- },
- {
-  "type": "photo",
   "src": "media/img/aim-72.webp",
   "label": "Tom Dixon + A31 Architecture · Aimasia Residence · Миконос, Греция"
  },
