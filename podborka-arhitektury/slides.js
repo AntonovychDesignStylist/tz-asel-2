@@ -498,46 +498,6 @@ window.SLIDES = [
  },
  {
   "type": "photo",
-  "src": "media/img/foster-04.webp",
-  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
- },
- {
-  "type": "photo",
-  "src": "media/img/foster-05.webp",
-  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
- },
- {
-  "type": "photo",
-  "src": "media/img/foster-06.webp",
-  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
- },
- {
-  "type": "photo",
-  "src": "media/img/foster-07.webp",
-  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
- },
- {
-  "type": "photo",
-  "src": "media/img/foster-08.webp",
-  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
- },
- {
-  "type": "photo",
-  "src": "media/img/foster-09.webp",
-  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
- },
- {
-  "type": "photo",
-  "src": "media/img/foster-10.webp",
-  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
- },
- {
-  "type": "photo",
-  "src": "media/img/foster-12.webp",
-  "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
- },
- {
-  "type": "photo",
   "src": "media/img/foster-13.webp",
   "label": "Foster + Partners · Dolunay Villa · Мугла, Турция"
  },
