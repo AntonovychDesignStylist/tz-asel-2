@@ -527,12 +527,6 @@ window.SLIDES = [
  },
  {
   "type": "photo",
-  "src": "media/img/fran-fran-p2.webp",
-  "label": "Fran Silvestre Arquitectos · House in Sotogrande · Сотогранде, Андалусия, Испания",
-  "plan": true
- },
- {
-  "type": "photo",
   "src": "media/img/fran-fran-p3.webp",
   "label": "Fran Silvestre Arquitectos · House in Sotogrande · Сотогранде, Андалусия, Испания",
   "plan": true
