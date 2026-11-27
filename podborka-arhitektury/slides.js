@@ -1269,47 +1269,6 @@ window.SLIDES = [
  },
  {
   "type": "text",
-  "kicker": "Долина Напа, Калифорния, США",
-  "title": "Kramlich Residence",
-  "sub": "Herzog & de Meuron"
- },
- {
-  "type": "photo",
-  "src": "media/img/herzog-herzog-p1.webp",
-  "label": "Herzog & de Meuron · Kramlich Residence · Долина Напа, Калифорния, США",
-  "plan": true
- },
- {
-  "type": "photo",
-  "src": "media/img/herzog-herzog-p2.webp",
-  "label": "Herzog & de Meuron · Kramlich Residence · Долина Напа, Калифорния, США",
-  "plan": true
- },
- {
-  "type": "photo",
-  "src": "media/img/herzog-01.webp",
-  "label": "Herzog & de Meuron · Kramlich Residence · Долина Напа, Калифорния, США"
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/herzog-02.webp",
-   "media/img/herzog-03.webp"
-  ],
-  "label": "Herzog & de Meuron · Kramlich Residence · Долина Напа, Калифорния, США",
-  "medium": true
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/herzog-04.webp",
-   "media/img/herzog-07.webp"
-  ],
-  "label": "Herzog & de Meuron · Kramlich Residence · Долина Напа, Калифорния, США",
-  "medium": true
- },
- {
-  "type": "text",
   "kicker": "Нью-Мексико, США",
   "title": "Cerro Pelon Ranch",
   "sub": "Tadao Ando"
