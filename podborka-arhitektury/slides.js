@@ -927,27 +927,6 @@ window.SLIDES = [
   "medium": true
  },
  {
-  "type": "photo",
-  "src": "media/img/vangood-08.webp",
-  "label": "VAN GOOD Design · Paradise Residence · Западная Африка",
-  "medium": true
- },
- {
-  "type": "pair",
-  "src": [
-   "media/img/vangood-06.webp",
-   "media/img/vangood-07.webp"
-  ],
-  "label": "VAN GOOD Design · Paradise Residence · Западная Африка",
-  "medium": true
- },
- {
-  "type": "photo",
-  "src": "media/img/vangood-11.webp",
-  "label": "VAN GOOD Design · Paradise Residence · Западная Африка",
-  "medium": true
- },
- {
   "type": "pair",
   "src": [
    "media/img/vangood-09.webp",
