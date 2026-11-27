@@ -661,11 +661,6 @@ window.SLIDES = [
  },
  {
   "type": "photo",
-  "src": "media/img/big-01.webp",
-  "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания"
- },
- {
-  "type": "photo",
   "src": "media/img/big-02.webp",
   "label": "BIG — Bjarke Ingels Group · Villa Gug · Ольборг, Дания"
  },
